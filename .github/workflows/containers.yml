@@ -27,6 +27,6 @@ jobs:
           node --version
           cat /etc/os-release
           echo "MY_SETTING=$MY_SETTING"
-          entrypoint: /bin/sh
-          args: -c "cat /etc/os-release"
+          # entrypoint: /bin/sh
+          # args: -c "cat /etc/os-release"
 
